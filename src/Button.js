@@ -1,10 +1,10 @@
 import React from "react";
 
-const Button = ({classIds, urlLink, buttonText, subText}) => {
+const Button = ({ classIds, urlLink, buttonText, subText }) => {
   return (
     <div>
-      <button id={classIds} className="button">
-        <a href={urlLink}>
+      <button className="button">
+        <a href={urlLink} id={classIds}>
           {buttonText}
         </a>
         <div>

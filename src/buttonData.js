@@ -6,7 +6,7 @@ export const buttonData = [
     },
     {
       id: 2,
-      classIds: 'btn__zuri',
+      classIds: 'btn_zuri',
       buttonText: 'Zuri Team',
       urlLink: 'https://training.zuri.team/',
     },
@@ -19,7 +19,7 @@ export const buttonData = [
     },
     {
       id: 4,
-      classIds: 'book__python',
+      classIds: 'book_python',
       buttonText: 'Python Books',
       subText: 'Where you feature the book as if you were selling it',
       urlLink: 'https://books.zuri.team/',
@@ -33,7 +33,7 @@ export const buttonData = [
     },
     {
       id: 6,
-      classIds: 'book__design',
+      classIds: 'book_design',
       buttonText: 'Design Books',
       subText: 'Where you pitch the free design book offered by Zuri',
       urlLink: 'http://books.zuri.team/',
