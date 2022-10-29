@@ -1,16 +1,12 @@
 import React from "react";
 
 const Button = ({ classIds, urlLink, buttonText, subText }) => {
+  console.log(classIds);
   return (
     <div>
-      <button className="button">
-        <a href={urlLink} id={classIds}>
-          {buttonText}
-        </a>
-        <div>
-          <p className="subText">{subText}</p>
-        </div>
-      </button>
+      <a href={urlLink} id={classIds} className="button" title={subText}>
+        {buttonText}
+      </a>
     </div>
   );
 };

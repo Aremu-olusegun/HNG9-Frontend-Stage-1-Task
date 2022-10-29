@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800;900&display=swap');
 
+
 * {
   margin: 0;
   padding: 0;
@@ -7,83 +8,131 @@
 }
 
 body {
-  width: 100%;
-  height: 100%;
   margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.App {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0px;
-  gap: 56px;
-  /* text-align: center; */
-  padding: 0px;
-  width: 1152px;
-  height: 774px;
-}
-
-.button {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 24px 32px;
-  border-radius: 8px;
-  border: none;
-  gap: 8px;
-  width: 1152px;
-  height: 76px;
-  background: #EAECF0;
+  max-width: 100%;
+  max-height: 100%;
+  font-family: 'inter';
 }
 
 a {
   text-decoration: none;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 28px;
-  display: flex;
-  align-items: center;
-  text-align: center;
   color: #101828;
 }
 
-.LinkSection {
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 30px;
+}
+
+.content {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
-  padding: 0px;
-  gap: 24px;
-  width: 1152px;
-  height: 576px;
+  width: 80%;
+  height: 40rem;
 }
 
-.profile {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-family: 'Inter';
-  font-style: normal;
-  gap: 24px;
-  isolation: isolate;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 30px;
-  color: #101828;
-}
 
 #profile_img {
-  width: 88px;
-  height: 88px;
-  background-image: url('https://img2.cgtrader.com/items/2436611/c7ee9cb007/large/roll-up-stand-banner-marketing-branding-sales-3d-model-obj-fbx-stl-blend-dae.jpg');
+  width: 90px;
+  height: auto;
   border-radius: 50%;
-  background-position: center;
-  background-size: cover;
+}
+
+.button {
+  padding: 20px;
+  align-items: center;
+  display: block;
+  text-align: center;
+  background-color: rgb(230, 230, 230);
+  border-radius: 8px;
+}
+
+.button:hover {
+  background-color: #666666;
+}
+
+.logo {
+  width: 40px;
+  height: auto;
+  margin: 10px;
+}
+
+.linkSection {
+  height: 30rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.socialSection {
+  margin-top: 20px;
+  width: 80%;
+  padding: 20px;
+}
+
+.footer {
+  width: 80%;
+  height: 10rem;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content2 {
+  height: inherit;
+  width: 100%;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer p {
+  color: #667085;
+}
+
+.hide {
+  display: none;
+}
+
+.hngLogo {
+  width: 90px;
+  height: auto;
+  margin: 0 10px;
+}
+
+@media screen and (min-width:375px) {
+  .button a {
+    font-size: 14px;
+  }
+
+  .footer p {
+    color: #667085;
+    font-size: 0.85rem;
+  }
+
+  .hngLogo {
+    width: 90px;
+    height: auto;
+    margin: 0 10px;
+  }
+
+  .content2 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .footer {
+    text-align: left;
+    margin-top: 50px;
+  }
+
 }

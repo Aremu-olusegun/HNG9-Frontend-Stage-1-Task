@@ -5,7 +5,7 @@ import { buttonData } from "./buttonData";
 
 const LinkSection = () => {
   return (
-    <div className="LinkSection">
+    <div className="linkSection">
       {buttonData.map(button => {
         return(
           <Button key={button.id} {...button}/>
