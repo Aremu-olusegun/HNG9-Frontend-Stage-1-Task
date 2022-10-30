@@ -15,7 +15,7 @@ export const buttonData = [
       classIds: 'books',
       buttonText: 'Zuri Books',
       subText: 'This is where you find books about design and coding',
-      urlLink: 'http://books.zuri.team/',
+      urlLink: 'http://books.zuri.team',
     },
     {
       id: 4,
@@ -29,13 +29,13 @@ export const buttonData = [
       classIds: 'pitch',
       buttonText: 'Background Check for CodePen',
       subText: 'Click here for code background checks',
-      urlLink: 'https://background.zuri.team/',
+      urlLink: 'https://background.zuri.team',
     },
     {
       id: 6,
       classIds: 'book_design',
       buttonText: 'Design Books',
       subText: 'Get tyhis free design book by zuri',
-      urlLink: 'http://books.zuri.team/',
+      urlLink: 'https://books.zuri.team/design-rules',
     },
   ]

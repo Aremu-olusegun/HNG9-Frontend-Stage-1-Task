@@ -1,4 +1,6 @@
 import React from "react";
+import zuriLogo from './icons/zuri-intern.jpg'
+import ingressiveGood from './icons/ingresive.webp'
 
 const Footer = () => {
   return (
@@ -6,7 +8,7 @@ const Footer = () => {
       <div className="content2">
         <div className="border">
           <img
-            src="https://linktreeapp.netlify.app/assets/zuri-intern.c3d55f2e.jpg"
+            src={zuriLogo}
             alt="myimage"
           ></img>
         </div>
@@ -15,7 +17,7 @@ const Footer = () => {
         </div>
         <div className="border">
           <img
-            src="https://linktreeapp.netlify.app/assets/ingresive.50dc68dd.jpg"
+            src={ingressiveGood}
             alt="myimage"
             className="hngLogo"
           ></img>
