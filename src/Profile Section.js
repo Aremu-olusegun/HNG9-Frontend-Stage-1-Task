@@ -6,7 +6,7 @@ import profileImg from './icons/coder.png'
 const Profile = () => {
   return (
     <div className="profile">
-      <img id="profile_img" alt="profile-img" src={profileImg}/>
+      <img id="profile__img" alt="profile-img" src={profileImg}/>
       <h2 id="twitter">Online printer</h2>
       <p id="slack" className="hide">Aremu Olusegun</p>
       <div className="icon-background">
