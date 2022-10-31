@@ -8,11 +8,11 @@ const Profile = () => {
     <div className="profile">
       <img id="profile_img" alt="profile-img" src={profileImg}/>
       <h2 id="twitter">Online printer</h2>
+      <p id="slack" className="hide">Aremu Olusegun</p>
       <div className="icon-background">
         <img src={shareIcon} alt="share icon" className="seen"></img>
         <img src={mobileIcon} alt="mobile icon" className="seen2"></img>
       </div>
-      <p id="slack" className="hide">Aremu Olusegun</p>
     </div>
   );
 };
