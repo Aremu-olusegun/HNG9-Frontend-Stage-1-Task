@@ -1,10 +1,17 @@
 import React from "react";
+import shareIcon from './icons/small icon.png'
+import mobileIcon from './icons/Mobile Icon.png'
+import profileImg from './icons/coder.png'
 
 const Profile = () => {
   return (
     <div className="profile">
-      <img id="profile_img" alt="profile-img" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.4sUyIN52j7RwaxGObVZWNAHaG_%26pid%3DApi&f=1&ipt=7fefac71a676645b13e15388b27c7bc0f9ce78bbcdef050616ce0d749d791631&ipo=images"/>
+      <img id="profile_img" alt="profile-img" src={profileImg}/>
       <h2 id="twitter">Online printer</h2>
+      <div className="icon-background">
+        <img src={shareIcon} alt="share icon" className="seen"></img>
+        <img src={mobileIcon} alt="mobile icon" className="seen2"></img>
+      </div>
       <p id="slack" className="hide">Aremu Olusegun</p>
     </div>
   );

@@ -26,21 +26,26 @@ a {
   align-items: center;
   flex-direction: column;
   margin: 30px;
+  margin-top: 40px;
 }
 
 .content {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 80%;
+  width: 90%;
   height: 40rem;
 }
 
 
 #profile_img {
-  width: 90px;
+  width: 88px;
   height: auto;
   border-radius: 50%;
+}
+
+.profile {
+  position: relative;
 }
 
 .button {
@@ -57,7 +62,8 @@ a {
 }
 
 .logo {
-  width: 40px;
+  width: 24px;
+  height: 24px;
   height: auto;
   margin: 10px;
 }
@@ -76,23 +82,23 @@ a {
 }
 
 .footer {
-  width: 80%;
-  height: 10rem;
+  width: 95%;
+  height: 15rem;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .content2 {
-  height: inherit;
+  height: 100%;
   width: 100%;
   flex-direction: row;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .footer p {
@@ -103,36 +109,143 @@ a {
   display: none;
 }
 
+.icon-background {
+  display: flex;
+  -moz-box-align: center;
+  align-items: center;
+  -moz-box-pack: center;
+  justify-content: center;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: -1.2rem;
+  right: 15%;
+  background: transparent;
+  border: 2px dotted lightgrey;
+  border-radius: 100%;
+  cursor: pointer;
+  z-index: -2;
+}
+
+
 .hngLogo {
   width: 90px;
   height: auto;
   margin: 0 10px;
 }
 
-@media screen and (min-width:375px) {
-  .button a {
-    font-size: 14px;
+@media screen and (min-width:200px) {
+  .profile {
+    position: relative;
   }
 
-  .footer p {
-    color: #667085;
-    font-size: 0.85rem;
+  .icon-background {
+    display: flex;
+    -moz-box-align: center;
+    align-items: center;
+    -moz-box-pack: center;
+    justify-content: center;
+    cursor: pointer;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: -1.2rem;
+    right: 0;
   }
 
-  .hngLogo {
-    width: 90px;
-    height: auto;
-    margin: 0 10px;
+  .seen {
+    display: none;
+  }
+
+  .seen2 {
+    display: block;
   }
 
   .content2 {
+    height: 100%;
+    width: 100%;
+    flex-direction: row;
     display: flex;
+    align-items: center;
     flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .content2 div {
+    align-self: center;
+  }
+
+  .border {
+    margin: 0;
+    padding: 0;
+    align-self: flex-start;
+  }
+
+  .border img {
+    margin: 0;
+    padding: 0;
+  }
+
+  .hngLogo {
+    margin: 0;
+    padding: 0;
+  }
+
+  .border p {
+    text-align: left;
   }
 
   .footer {
-    text-align: left;
-    margin-top: 50px;
+    height: 8rem;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .profile {
+    position: relative;
   }
 
+  .icon-background {
+    display: flex;
+    -moz-box-align: center;
+    align-items: center;
+    -moz-box-pack: center;
+    justify-content: center;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: -1.2rem;
+    right: 15%;
+    background: transparent;
+    border: 2px dotted lightgrey;
+    border-radius: 100%;
+    cursor: pointer;
+    z-index: -2;
+  }
+
+  .seen {
+    display: block;
+  }
+
+  .seen2 {
+    display: none;
+  }
+
+  .footer {
+    width: 90%;
+    height: 15rem;
+  }
 }
+
+@media screen and (min-width: 750px) {
+  .footer {
+    width: 95%;
+    height: 15rem;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
