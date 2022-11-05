@@ -1,0 +1,505 @@
+.contactOverall {
+    /* border: 1px solid rgb(0, 255, 255); */
+    max-width: 60%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+
+.form-container {
+    margin-top: 4rem;
+    /* border: 1px solid purple; */
+    width: 100%;
+}
+
+.contact-container {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.checkbox-container {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+#default-checkbox {
+    margin-right: 1rem;
+}
+
+.contactme {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+    color: #101828;
+}
+
+.contactSubHeader {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 1rem;
+    /* identical to box height, or 150% */
+
+    /* Gray/600 */
+    color: #475467;
+}
+
+#btn__submit {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 20px;
+    gap: 8px;
+    display: block;
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+
+    /* identical to box height, or 150% */
+
+    /* Base/White */
+    color: #FFFFFF;
+    /* Primary/600 */
+    background: #1570EF;
+
+    /* Primary/600 */
+    border: 1px solid #1570EF;
+}
+
+#email,
+.first_name,
+.last_name {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    /* identical to box height, or 150% */
+
+    /* Gray/500 */
+    color: #667085;
+}
+
+.contact-container {
+    /* border: 1px solid blue; */
+    gap: 20px;
+}
+
+.first {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid green; */
+    flex-wrap: wrap;
+}
+
+.input_label {
+    /* border: 1px solid orangered; */
+    flex-grow: 1;
+    align-self: baseline;
+    padding-right: 30px;
+}
+
+.ingressivelogo {
+    width: 100px;
+    height: auto;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    max-width: 80%;
+    /* border: 1px solid black; */
+}
+
+.input_label2 {
+    align-self: baseline;
+    flex-grow: 1;
+    margin-top: 1rem;
+    /* border: 1px solid purple; */
+}
+
+.input_labelCont {
+    margin-top: 1rem;
+}
+
+input[type="text"] {
+    padding: 10px 14px;
+    width: 100%;
+    margin-top: 1rem;
+    gap: 8px;
+    background: #FFFFFF;
+    border: 1px solid #D0D5DD;
+    border-radius: 0.25rem;
+}
+
+input[type="email"] {
+    border: 1px solid #D0D5DD;
+    background: #FFFFFF;
+    gap: 8px;
+    padding: 12px 14px;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.messageContainer {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid navy; */
+    margin-top: 2rem;
+}
+
+textarea[type="email"] {
+    margin-top: 1rem;
+    display: block;
+    width: 100%;
+    height: 10rem;
+    font-family: inherit;
+    background: #FFFFFF;
+    border: 1px solid #D0D5DD;
+    padding: 12px 14px;
+}
+
+/*Media Query Responsive Design*/
+
+@media screen and (min-width:250px) {
+    .contactOverall {
+        /* border: 1px solid rgb(0, 255, 255); */
+        max-width: 90%;
+        box-sizing: border-box;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+        flex-direction: column;
+    }
+
+    .footer {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 90%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .input_label {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        color: #344054;
+    }
+
+    .contactSubHeader {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: #475467;
+    }
+
+    .input_label2 {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        color: #344054;
+    }
+
+    .input_labelCont {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        color: #344054;
+    }
+
+    .messageContainer {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        color: #344054;
+    }
+
+    .checkbox-container {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        color: #344054;
+    }
+
+    #btn__submit {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+    }
+
+    .contactme {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 44px;
+        letter-spacing: -0.02em;
+        color: #101828;
+    }
+
+    .contact-container {
+        margin-top: 0.50rem;
+        margin-bottom: 4rem;
+    }
+
+    .input_label {
+        /* border: 1px solid orangered; */
+        flex-grow: 1;
+        align-self: baseline;
+        padding-right: 0px;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .contactOverall {
+        /* border: 1px solid rgb(0, 255, 255); */
+        max-width: 90%;
+        box-sizing: border-box;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+        flex-direction: column;
+    }
+
+    .footer {
+        display: flex;
+        flex-wrap: nowrap;
+        max-width: 90%;
+        flex-direction: row;
+       align-items: center;
+        justify-content: space-between;
+    }
+
+    .input_label {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        color: #344054;
+    }
+
+    .contactSubHeader {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: #475467;
+    }
+
+    .input_label2 {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        color: #344054;
+    }
+
+    .input_labelCont {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        color: #344054;
+    }
+
+    .messageContainer {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        color: #344054;
+    }
+
+    .checkbox-container {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        color: #344054;
+    }
+
+    #btn__submit {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+    }
+
+    .contactme {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 44px;
+        letter-spacing: -0.02em;
+        color: #101828;
+    }
+
+    .contact-container {
+        margin-top: 0.50rem;
+        margin-bottom: 4rem;
+    }
+
+    .input_label {
+        /* border: 1px solid orangered; */
+        flex-grow: 1;
+        align-self: baseline;
+        padding-right: 0px;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    .contactOverall {
+        /* border: 1px solid rgb(0, 255, 255); */
+        max-width: 50%;
+        box-sizing: border-box;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+        flex-direction: column;
+    }
+
+    .footer {
+        display: flex;
+        flex-wrap: nowrap;
+        max-width: 75%;
+        flex-direction: row;
+       align-items: center;
+        justify-content: space-between;
+    }
+
+    .input_label {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        color: #344054;
+    }
+
+    .contactSubHeader {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: #475467;
+    }
+
+    .input_label2 {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        color: #344054;
+    }
+
+    .input_labelCont {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        color: #344054;
+    }
+
+    .messageContainer {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        color: #344054;
+    }
+
+    .checkbox-container {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        color: #344054;
+    }
+
+    #btn__submit {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+    }
+
+    .contactme {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 44px;
+        letter-spacing: -0.02em;
+        color: #101828;
+    }
+
+    .contact-container {
+        margin-top: 0.50rem;
+        margin-bottom: 4rem;
+    }
+
+    .input_label {
+        /* border: 1px solid orangered; */
+        flex-grow: 1;
+        align-self: baseline;
+        padding-right: 30px;
+    }
+}
+
+/* Contact Page Styling */
