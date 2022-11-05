@@ -15,7 +15,7 @@ const Button = ({ classIds, urlLink, buttonText, subText }) => {
         {buttonText}
       </a>
   ) : (
-    <Link to={urlLink} className="button" target="_blank">{buttonText}</Link>
+    <Link to={urlLink} className="button" target="_blank" id={classIds}>{buttonText}</Link>
   )
 };
 
