@@ -60,17 +60,15 @@ const Contact = () => {
               </label>
             </div>
             <div className="checkbox-container">
-              <input id="default-checkbox" type="checkbox" value=""></input>
+              <input id="checkbox" type="checkbox" value=""></input>
               <label>
                 You agree to providing your data to Aremu Olusegun who may
                 contact you.
               </label>
             </div>
-            <div>
-              <button id="btn__submit" type="submit">
-                Send message
-              </button>
-            </div>
+            <button id="btn__submit" type="submit">
+              Send message
+            </button>
           </form>
           {/* <p>The coding challenge has begun</p> */}
         </main>
