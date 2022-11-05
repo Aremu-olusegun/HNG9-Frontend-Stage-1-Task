@@ -38,4 +38,11 @@ export const buttonData = [
       subText: 'Get tyhis free design book by zuri',
       urlLink: 'https://books.zuri.team/design-rules',
     },
+    {
+      id: 7,
+      classIds: 'contact',
+      buttonText: 'Contact Me',
+      subText: 'Contact me now',
+      urlLink: '/contact',
+    },
   ]
