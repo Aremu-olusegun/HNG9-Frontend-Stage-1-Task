@@ -30,6 +30,10 @@
     margin-right: 1rem;
 }
 
+#checkbox {
+    margin-right: 12px;
+}
+
 .contactme {
     font-family: 'Inter';
     font-style: normal;
